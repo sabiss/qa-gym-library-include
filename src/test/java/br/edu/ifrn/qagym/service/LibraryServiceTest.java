@@ -63,7 +63,7 @@ class LibraryServiceTest {
     }
 
     @Test 
-    void DeveRetornarQuantidadeDeLivrosCadastrados(){
+    void deveRetornarQuantidadeDeLivrosCadastrados(){
         Book book1 = new Book("978-8572322690", "Pequeno Príncipe", "Antoine de Saint-Exupéry.", 1943);
         Book book2 = new Book("978-6525923536", "Superalmanaque da Turma da Mônica", "Maurício de Souza", 2024);
         Book book3 = new Book("978-8525063304", "Rita Lee: Uma autobiografia", "Rita Lee", 2016);
